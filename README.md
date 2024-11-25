@@ -32,15 +32,19 @@ Link to dataset - https://www.kaggle.com/datasets/teejmahal20/airline-passenger-
 
 ### Installing Dependencies
 The pipfile is already provided 
+
 To install run `pipenv install`
-To run any file you can use pipenv run, `pipenv run python train.py` will train and provide the model in an output file.
-`pipenv run python predict.py` will start up the server and `pipenv run python predict-test.py` will run the sample test case
+
+To run any file you can use pipenv run
+`pipenv run python train.py` will train and provide the model in an output file.
+`pipenv run python predict.py` will start up the server and 
+`pipenv run python predict-test.py` will run the sample test case
 
 ---
 
 #### To execute project 
 Run `docker build -t midterm-project . --no-cache`
 
-then run `docker run -it --rm -p 9696:9696 midterm-project`
+Then run `docker run -it --rm -p 9696:9696 midterm-project`
 
 After this the server should be running. You can run `python predict-test.py` to run a sample file and it would give a prediction.
