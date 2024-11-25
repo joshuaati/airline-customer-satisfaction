@@ -30,6 +30,14 @@ Link to dataset - https://www.kaggle.com/datasets/teejmahal20/airline-passenger-
 
 ---
 
+### Installing Dependencies
+The pipfile is already provided 
+To install run `pipenv install`
+To run any file you can use pipenv run, `pipenv run python train.py` will train and provide the model in an output file.
+`pipenv run python predict.py` will start up the server and `pipenv run python predict-test.py` will run the sample test case
+
+---
+
 #### To execute project 
 Run `docker build -t midterm-project . --no-cache`
 
